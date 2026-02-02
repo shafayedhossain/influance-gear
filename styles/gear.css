@@ -22,9 +22,10 @@
 }
  header{
      background-color:white;
-    background-repeat: no-repeat;
-    padding-top: 50px;
-    background-position: 87px 120px , bottom right;
+   
+     padding-top: 50px; 
+    /* background-position: 87px 120px , bottom right; */
+    margin-bottom: 145px;
  }
  nav{
     width: 73%;
@@ -48,7 +49,94 @@
     /* text-decoration: none; */
  }
  #banner{
+   max-width: 1400px;
+   
     border: 1px solid red;
-    margin: 145px 133px 0px 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+     background: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+     background-position: bottom right; 
+
  }
+ 
+ .logo1{
+   margin-top: 100px;
+ }
+ .banner-contant h4 {
+   width: 100%;
+   font-size: 3.4rem ;
+   font-weight: 700;
+   color: #3A3A3A;
+   margin-bottom: 16px;
+}
+.banner-discription{
+   font-size: 1rem;
+   font-weight: 600;
+   color: #3A3A3A;
+
+}
+.btn-primary{
+   font-size: 1rem;
+   font-weight: 700;
+   color: #FFFFFF;
+   padding: 10px 56px 10px 24px;
+   box-shadow: 0 4 4 0 #000000 ;
+   border-radius: 16px;
+   background-color: #E02C6D;
+   gap: 8px ;
+   cursor: pointer;
+}
+#banner .banner-image img{
+  max-width: 440px;
+  margin-top: 80px;
+}
+.logos-companies{
+   display: flex;
+   max-width: 1400px;
+   margin: 0 auto;
+   /* gap: 60px; */
+   justify-items: center;
+   /* margin-top: 100px; */
+   /* margin-left: 165px; */
+   text-align: center;
+ justify-content: space-between;
+ align-items: center;
+ box-shadow: 0px 4px 4px 0px #000000;
+  padding: 60px;
+}
+.skills{
+    /* padding-top: 100px;  */
+}
+    
+#skills .skills-container{
+
+   max-width: 1400px;
+   font-size: 1.80rem;
+   font-weight: 600;
+   margin: 0 auto;
+   text-align: center;
+    margin-bottom: 40px; 
+    color: #3A3A3A;
+
+}
+ .skill-box{
+   display: grid; 
+   grid-template-columns: repeat(3, 1fr); 
+   max-width: 1400px;
+   margin-left: 200px;
+   gap: 24px;
+}
+.arrow{
+   font-size: 1rem;
+   font-weight: 700;
+   text-align: right;
+   margin-right: 197px;
+   color: #E02C6D;
+   /* margin: 0 auto; */
+   margin-top: 50px;
+
+}
+
